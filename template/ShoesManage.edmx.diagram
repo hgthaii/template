@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="73b6deaeb24b4363ab05f684fcbb746a" Name="Diagram1">
+        <EntityTypeShape EntityType="WEBweek6Model.CHITIETDONTHANG" Width="1.5" PointX="8.125" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBweek6Model.CHUDE" Width="1.5" PointX="2.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBweek6Model.DONDATHANG" Width="1.5" PointX="8.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBweek6Model.KHACHHANG" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBweek6Model.NHACUNGCAP" Width="1.5" PointX="2.125" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBweek6Model.SANPHAM" Width="1.5" PointX="4.125" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="WEBweek6Model.FK_CHITIETDONTHANG_DONDATHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBweek6Model.FK_CHITIETDONTHANG_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBweek6Model.FK_ChuDe" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBweek6Model.FK_DONDATHANG_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBweek6Model.FK_NhaXB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
